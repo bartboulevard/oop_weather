@@ -1,0 +1,25 @@
+.subhead {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    color: #793ea5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.subhead-city {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    position: relative;
+}

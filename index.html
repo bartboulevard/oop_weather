@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
   <title>Current Weather - OOP</title>
 </head>
 <body>
@@ -14,15 +14,16 @@
 <hr>
 <div>
   <form id="change-city">
-    <label for="city-name">City</label>
+    <label for="city-name" class="subhead-city">City</label>
     <input type="text" id="city-name">
     <br>
-    <input type="submit" value="Save changes">
+    <input type="submit" value="Save changes" class="subhead-city">
   </form>
 </div>
 
 <script src="classes/Weather.js"></script>
 <script src="classes/UI.js"></script>
+<script src="classes/LS.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
